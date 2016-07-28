@@ -1,0 +1,357 @@
+header {
+  background-image: url(images/bg-header.jpg);
+  height: 160px;
+}
+
+* {
+  margin: 0 auto;
+  padding: 0;
+}
+
+
+.wrapper {
+  width: 96%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2%;
+}
+
+#logo {
+  float: left;
+}
+
+.icon-menu {
+  visibility: hidden;
+}
+
+#menu {
+  float: right;
+}
+
+#menu li {
+  float: left;
+  padding-right: 59px;
+  font-size: 16px;
+  color: #e29b1f;
+  list-style: none;
+  padding-top: 65px;
+}
+
+#menu li:hover {
+  cursor: pointer;
+  color: #fff;
+}
+
+header:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+
+section {
+  background: #fff7db;
+  padding-bottom: 49px;
+}
+
+#banner img {
+  width: 100%;
+  padding-top: 30px;
+   }
+
+#banner p{
+  color: #aa9387;
+  font-size: 16px;
+  font-family: arial;
+  text-align: center;
+  padding: 0 114px;
+}
+
+/*
+.offer {
+  background-color: #fff1c7;
+  height: 300px;
+  width: 100%;
+}
+
+.offer li {
+  float: left;
+  padding-top: 30px;
+  list-style: none;
+  width: 33%;
+}
+*/
+section:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+
+.image:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+
+*//
+
+aside {
+  height: 32px;
+  background:  #ffefc2;
+  text-decoration-line: none;
+  padding-bottom: 32px;
+}
+
+#latest-work {
+  padding-bottom: 32px;
+  padding-top: 32px;
+  margin-top: 30px;
+  color: #aa9387;
+  font-family: arial;
+}
+
+#latest-work h2 {
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+#latest-work li{
+  width: 32%;
+  float: left;
+  list-style: none;
+ }
+
+ #latest-work img {
+  width: 100%;
+ }
+
+ #latest-work li:nth-child(2) {
+  margin: 0 2%;
+ }
+
+ #latest-work:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+
+
+#latest-work p {
+  line-height: 1.6em;
+}
+
+
+
+
+
+
+
+
+
+
+
+ul .text:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+footer {
+   background-image: url(images/footer.jpg);
+   height: 161px;
+}
+
+.social-media {
+  margin: auto 0;
+  padding-left: 320px;
+  padding-right:320px;
+
+}
+footer li {
+  float: left;
+  list-style: none;
+  padding-top: 27px;
+  margin-bottom: 70px;
+  width: 24%;
+}
+
+ .social-media li:nth-child(2) {
+  margin: 0 2%;
+ }
+
+ul.social-media:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+ #rights {
+  color: #956836;
+  text-align: center;
+
+  }
+
+.background {
+  width: 400px;
+  height: 500px;
+  margin: auto;
+  background-image: url('http://best-wallpaper.net/wallpaper/1024x768/1110/City-night-city-road-vehicles_1024x768.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-box-shadow: 0 15px 40px 0 rgba(0,0,0,0.75);
+  -moz-box-shadow: 0 15px 40px 0 rgba(0,0,0,0.75);
+  box-shadow: 0 15px 40px 0 rgba(0,0,0,0.75);
+  font-family: Montserrat, sans-serif;
+  color: rgba(255,255,255,0.4);
+  /* Place element in center */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+
+
+background-image: url("http://best-wallpaper.net/.../City-night-city-road...");
+backgruind-position: center;
+background-repeat: no-repeat
+}
+
+
+@media screen and (max-width: 768px){
+
+.icon-menu {
+    float: right;;
+    visibility: visible;
+    font-size: 80px;
+    color:  #fff7db;
+    margin-top: 30px;
+    margin-left: 80px;
+
+    }
+
+
+  footer {
+    height: 200px;
+
+  }
+
+  .social-media {
+    margin-top: 50px;
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-right: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+
+  }
+
+
+
+#menu {
+  visibility: hidden;
+  padding-left: 20px;
+}
+
+#menu li {
+  float: left;
+  padding-right: 59px;
+  font-size: 26px;
+  font-weight: bolder;
+  color: #e29b1f;
+  list-style: none;
+  padding-top: 25px;
+}
+
+#menu li:hover {
+  cursor: pointer;
+  color: grey;
+
+}
+
+}
+
+
+@media screen and (max-width: 425px) {
+
+
+  .icon-menu {
+      float: none;
+      display: none;
+      visibility: hidden;
+      font-size: 80px;
+      color:  #fff7db;
+      margin-top: 30px;
+      margin-left: 80px;
+
+      }
+
+  #menu li {
+    visibility: visible;
+    float: none;
+    padding-right: 120px;
+    font-size: 26px;
+    font-weight: bolder;
+    color: #e29b1f;
+    list-style: none;
+    padding-top: 20px;
+    text-transform: uppercase;
+  }
+
+  #banner p{
+    color: #aa9387;
+    font-size: 16px;
+    font-family: arial;
+    text-align: center;
+    margin: 20px;
+    padding: 2%;
+  }
+    .social-media {
+      margin-top: 50px;
+      padding-top: 30px;
+      padding-left: 50px;
+      padding-right: 30px;
+      margin-left: 10px;
+      margin-right: 10px;
+
+
+    }
+
+    #latest-work li{
+      width: 400px;
+      list-style: none;
+
+      float: none;
+      text-align: center;
+     }
+}
+
+@media screen and (max-width: 375px) {
+  header {
+    padding: 0;
+    width: 413px;
+  }
+  footer, section  {
+    padding: 0;
+    width: 413px;
+
+  }
+}
+
+
+@media screen and (max-width: 320px) {
+  header  {
+    padding: 0;
+		width: 410px;
+  }
+  footer, section  {
+    padding: 0;
+		width: 410px;
+
+  }
+}
